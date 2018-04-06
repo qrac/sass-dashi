@@ -1,7 +1,7 @@
 {
   "name": "sass-dashi",
   "description": "Sass variable & mixin",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "keywords": [
     "sass",
     "scss",
@@ -21,7 +21,5 @@
     "type": "git",
     "url": "git+https://github.com/qrac/sass-dashi.git"
   },
-  "license": "CC0-1.0",
-  "devDependencies": {
-  }
+  "license": "CC0-1.0"
 }

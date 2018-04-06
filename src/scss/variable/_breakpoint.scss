@@ -13,7 +13,7 @@ $screen-width-desktop: 992px !default;
 $screen-width-wide: 1200px !default;
 
 //----------------------------------------------------
-// / Pattern
+// / Base - Pattern
 //----------------------------------------------------
 
 $pattern-breakpoint-base:(
@@ -23,6 +23,10 @@ $pattern-breakpoint-base:(
   desktop: $screen-width-desktop,
   wide: $screen-width-wide
 ) !default;
+
+//----------------------------------------------------
+// / Media Query - Pattern
+//----------------------------------------------------
 
 $pattern-breakpoint-mediaquery-mobile-first:(
   mobile: $screen-width-mobile,
