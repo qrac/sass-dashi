@@ -319,7 +319,7 @@ $pattern-color-dark:(
   dark-7: $dark-7,
   dark-8: $dark-8,
   dark-9: $dark-9
-);
+) !default;
 
 $pattern-color-light:(
   light: $light,
@@ -332,7 +332,7 @@ $pattern-color-light:(
   light-7: $light-7,
   light-8: $light-8,
   light-9: $light-9
-);
+) !default;
 
 //----------------------------------------------------
 // / Theme
@@ -350,7 +350,7 @@ $pattern-color-theme:(
   success: $success,
   warning: $warning,
   danger: $danger
-);
+) !default;
 
 //----------------------------------------------------
 // / Brand
@@ -368,4 +368,4 @@ $pattern-color-social:(
   hatena: $brand-hatena,
   line: $brand-line,
   pocket: $brand-pocket
-);
+) !default;
