@@ -1,8 +1,11 @@
 {
   "name": "sass-dashi",
   "description": "Sass variable & mixin",
-  "version": "0.3.0",
+  "version": "0.3.1",
+  "license": "CC0-1.0",
   "main": "src/scss/_dashi.scss",
+  "repository": "https://github.com/qrac/sass-dashi",
+  "bugs": "https://github.com/qrac/sass-dashi/issues",
   "keywords": [
     "sass",
     "scss",
@@ -10,17 +13,12 @@
     "mixin",
     "dashi"
   ],
-  "homepage": "https://github.com/qrac/sass-dashi",
-  "bugs": {
-    "url": "https://github.com/qrac/sass-dashi/issues"
-  },
   "author": {
     "name": "Qrac",
-    "web": "https://twitter.com/Qrac_JP"
+    "url": "https://qrac.jp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qrac/sass-dashi.git"
-  },
-  "license": "CC0-1.0"
+  "organization": {
+    "name": "QRANOKO",
+    "url": "https://qranoko.jp"
+  }
 }
