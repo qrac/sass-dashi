@@ -111,14 +111,14 @@
 
 // Landscape(tablet size or less)
 @mixin landscape {
-  @media all and (orientation:landscape) and (max-width: $screen-width-desktop - 1px) {
+  @media all and (orientation: landscape) and (max-width: $screen-width-desktop - 1px) {
     @content;
   }
 }
 
 // Portrait(tablet size or less)
 @mixin portrait {
-  @media all and (orientation:portrait) and (max-width: $screen-width-desktop - 1px) {
+  @media all and (orientation: portrait) and (max-width: $screen-width-desktop - 1px) {
     @content;
   }
 }
@@ -129,7 +129,7 @@
 
 // Chrome and Opera
 @mixin chrome {
-  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
     @content;
   }
 }
@@ -143,14 +143,24 @@
 
 // Edge Only
 @mixin edge {
-  @media all and (-ms-ime-align:auto) {
+  @media all and (-ms-ime-align: auto) {
     @content;
   }
 }
 
 // IE Only
 @mixin ie {
-  @media all and (-ms-high-contrast:none) {
+  @media all and (-ms-high-contrast: none) {
+    @content;
+  }
+}
+
+//----------------------------------------------------
+// / Dark Mode
+//----------------------------------------------------
+
+@mixin dark {
+  @media (prefers-color-scheme: dark) {
     @content;
   }
 }
