@@ -171,13 +171,13 @@
   }
 }
 
-@mixin data-light {
+@mixin data-theme-light {
   [data-theme="light"] {
     @content;
   }
 }
 
-@mixin data-dark {
+@mixin data-theme-dark {
   [data-theme="dark"] {
     @content;
   }
