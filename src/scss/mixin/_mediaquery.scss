@@ -156,7 +156,7 @@
 }
 
 //----------------------------------------------------
-// / Color Scheme
+// / Theme
 //----------------------------------------------------
 
 @mixin light {
@@ -171,8 +171,14 @@
   }
 }
 
-@mixin dark-class {
-  .darkmode {
+@mixin data-light {
+  [data-theme="light"] {
+    @content;
+  }
+}
+
+@mixin data-dark {
+  [data-theme="dark"] {
     @content;
   }
 }
