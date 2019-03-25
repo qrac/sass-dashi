@@ -2,9 +2,12 @@
 // Dashi - SCSS
 //----------------------------------------------------
 
-@import "variable/breakpoint";
-@import "variable/color";
-@import "variable/font";
-@import "variable/shadow";
-@import "mixin/mediaquery";
-@import "mixin/placeholder";
+@import "variable/_breakpoint.scss";
+@import "variable/_color.scss";
+@import "variable/_font.scss";
+@import "variable/_space.scss";
+@import "variable/_radius.scss";
+@import "variable/_shadow.scss";
+
+@import "mixin/_mediaquery.scss";
+@import "mixin/_placeholder.scss";

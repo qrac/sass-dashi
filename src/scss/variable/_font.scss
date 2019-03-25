@@ -74,3 +74,15 @@ $pattern-font-weight: (
   weight-800: $font-weight-800,
   weight-900: $font-weight-900
 ) !default;
+
+//----------------------------------------------------
+// / Line Height
+//----------------------------------------------------
+
+$line-height-xxl: 2 !default;
+$line-height-xl: 1.9 !default;
+$line-height-lg: 1.75 !default;
+$line-height-md: 1.5 !default;
+$line-height-sm: 1.375 !default;
+$line-height-xs: 1.25 !default;
+$line-height-xxs: 1 !default;
