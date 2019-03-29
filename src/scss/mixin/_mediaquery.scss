@@ -159,13 +159,13 @@
 // / Theme
 //----------------------------------------------------
 
-@mixin light {
+@mixin media-theme-light {
   @media (prefers-color-scheme: light) {
     @content;
   }
 }
 
-@mixin dark {
+@mixin media-theme-dark {
   @media (prefers-color-scheme: dark) {
     @content;
   }
