@@ -27,10 +27,6 @@ $font-size-sm: 87.5% !default;
 $font-size-xs: 75% !default;
 $font-size-xxs: 62.5% !default;
 
-//----------------------------------------------------
-// / Font Size - Pattern
-//----------------------------------------------------
-
 $pattern-font-size: (
   xxl: $font-size-xxl,
   xl: $font-size-xl,
@@ -57,10 +53,6 @@ $font-weight-700: 700 !default;
 $font-weight-800: 800 !default;
 $font-weight-900: 900 !default;
 
-//----------------------------------------------------
-// / Font Weight - Pattern
-//----------------------------------------------------
-
 $pattern-font-weight: (
   normal: $font-weight-normal,
   strong: $font-weight-strong,
@@ -86,3 +78,13 @@ $line-height-md: 1.5 !default;
 $line-height-sm: 1.375 !default;
 $line-height-xs: 1.25 !default;
 $line-height-xxs: 1 !default;
+
+$pattern-line-height: (
+  xxl: $line-height-xxl,
+  xl: $line-height-xl,
+  lg: $line-height-lg,
+  md: $line-height-md,
+  sm: $line-height-sm,
+  xs: $line-height-xs,
+  xxs: $line-height-xxs
+) !default;
